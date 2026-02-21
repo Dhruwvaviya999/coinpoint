@@ -47,7 +47,7 @@ const TrendingCoins = async () => {
               isTrendingUp ? "text-green-500" : "text-red-500",
             )}
           >
-            <p>
+            <p className="flex items-center">
               {isTrendingUp ? (
                 <TrendingUp width={16} height={16} />
               ) : (
